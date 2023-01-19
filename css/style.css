@@ -1,0 +1,260 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+:root {
+    --headingBgColor: #3A6351;
+    --admissionInfoBg: #FAEBD7;
+    --noticeboardBg: #F3F3F3;
+    --fontColor: #989898;
+  }
+
+
+
+
+/* main body */
+
+#main-container{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header-top{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.hr-line{
+    height: 5px;
+    background-color: #E48257;
+}
+
+/* swiper css start */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* swiper css end */
+
+
+/* header hero section or slider section start */
+.slider-section{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.hero-section-text{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+}
+
+.hero-text{
+    padding-left: 1.5em;
+}
+
+.hero-text a{
+    color: #fffb00;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* header hero section or slider section end*/
+
+/* navigation bar start */
+.nav-link{
+    font-size: 1em;
+    padding: 0.8em 1.2em !important;
+    border-right: 1px solid rgb(221, 216, 216);
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(24, 23, 23);
+    color: #fff;
+    transition: all 0.5s;
+}
+/* navigation bar end */
+
+/* main section start */
+
+
+
+
+/* left side bar start */
+
+/* admission info section start */
+.admission-info{
+    background-color: var(--admissionInfoBg);
+}
+
+/* notice board */
+.notice-board-full-row{
+    background-color: var(--noticeboardBg);
+    border: 1px solid #DDDDDD;
+}
+
+
+.notice-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.notice-nav span{
+    margin: 0 0.8em;
+    color: var(--fontColor);
+    font-size: 0.8rem; 
+}
+
+
+.notice-nav span:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.notice-button a{
+    background-color: #959595;
+    color: black;
+    padding: 0.2em 0.5em;
+    font-size: 0.8rem;
+}
+
+.box {
+    background-color: var(--noticeboardBg);
+}
+.box-nav span{
+    font-size: 0.9rem;
+    padding-left: 0.3em;
+    color: var(--fontColor);
+}
+
+.box-nav span:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+/* admission info section end */
+
+
+/* left side bar end */
+
+
+/* right side bar start */
+
+.right-side-nav li{
+    border-bottom: 1px solid #000;
+}
+
+.right-side-nav li a{
+    display: inline-block;
+    padding: 0.5em 0;
+    margin-left: 1em;
+    color: var(--fontColor);
+    font-size: 0.9rem;
+}
+
+.right-side-nav li:hover a{
+    text-decoration: underline;
+    color: #000;
+}
+
+/* calender start */
+.prev-btn,
+.next-btn{
+    padding: 1em;
+}
+.prev-btn:hover,
+.next-btn:hover{
+    background-color: #000;
+}
+
+.seven-cols div{
+    cursor: pointer;
+    min-height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seven-cols div:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/* calender end */
+
+.hotline img{
+    width: 100%;
+    height: 420px;
+}
+
+.login img{
+    width: 80%;
+    height: 60px;
+}
+
+/* right side bar end */
+
+
+/* main section start */
+
+/* footer */
+
+
